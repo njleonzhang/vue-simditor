@@ -5,4 +5,4 @@ vue 2.0 wrapper for simditor
 
 `npm install vue-simditor`
 
-check the (example)['/example/App.vue'] for usage.
+check the [example]('/example/App.vue') for usage.
