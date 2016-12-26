@@ -1,8 +1,8 @@
 # vue-simditor
 vue 2.0 wrapper for simditor
 
-# install and usage 
+# install and usage
 
 `npm install vue-simditor`
 
-check the [example](/example/App.vue) for usage.
+check the [example](https://github.com/njleonzhang/vue-simditor/blob/master/example/App.vue) for usage.
