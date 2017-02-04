@@ -1,6 +1,6 @@
 {
   "name": "vue-simditor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue 2.0 wrapper for simditor",
   "author": "njleonzhang <scream3616@sina.com>",
   "main": "dist/vue-simditor.js",
