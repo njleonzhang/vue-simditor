@@ -8,6 +8,7 @@
 
 <script>
 import Simditor from '../src/index.js'
+// import Simditor from '../dist/vue-simditor'
 
 export default {
   components: {

@@ -3,18 +3,15 @@
   "version": "0.0.2",
   "description": "vue 2.0 wrapper for simditor",
   "author": "njleonzhang <scream3616@sina.com>",
-  "main": "src/index.js",
+  "main": "dist/vue-simditor.js",
   "homepage": "https://github.com/njleonzhang/vue-simditor",
   "scripts": {
     "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-    "element-ui": "^1.0.7",
     "vue": "^2.1.0",
-    "pug": "^2.0.0-beta6",
-    "node-sass": "^4.0.0",
-    "sass-loader": "^4.1.0",
     "jquery": "^3.1.1",
     "simditor": "^2.3.6"
   },

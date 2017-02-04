@@ -87,5 +87,6 @@ module.exports = {
         browsers: ['last 2 versions']
       })
     ]
-  }
+  },
+  devtool: config.build.productionSourceMap ? '#source-map' : false
 }
