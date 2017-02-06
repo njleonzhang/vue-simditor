@@ -5,24 +5,24 @@ var webpack = require('webpack')
 var merge = require('webpack-merge')
 var baseWebpackConfig = require('./webpack.base.conf')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
-var env = config.build.env
+var env = config.demo.env
 
 var webpackConfig = merge(baseWebpackConfig, {
-  module: {
-    loaders: utils.styleLoaders()
-  },
   entry: {
     app: './example/main.js'
   },
-  devtool: config.build.productionSourceMap ? '#source-map' : false,
+  module: {
+    loaders: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap })
+  },
+  devtool: config.demo.productionSourceMap ? '#source-map' : false,
   output: {
-    path: config.build.assetsRoot,
-    filename: 'vue-simditor.js',
+    path: config.demo.assetsRoot,
+    filename: 'demo.js',
+    publicPath: config.demo.assetsPublicPath
   },
   vue: {
     loaders: utils.cssLoaders({
-      sourceMap: config.build.productionSourceMap,
-      extract: true
+      sourceMap: config.demo.productionSourceMap
     })
   },
   plugins: [
